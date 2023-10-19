@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T06:10:15.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="wBLC2OrZU2yLYxQNuBJ9" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T06:22:59.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="HHVKt6roI7wiyKMnvVIb" version="22.0.4" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="2498" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -731,9 +731,9 @@
             <mxPoint x="410" y="3247" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SUiiR8tl3ieN-L8OfsxM-187" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SUiiR8tl3ieN-L8OfsxM-185">
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-187" value="use in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SUiiR8tl3ieN-L8OfsxM-185">
           <mxGeometry x="0.4897" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SUiiR8tl3ieN-L8OfsxM-176" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 51, 102);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;NotificationAdapter&lt;/u&gt;&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -920,6 +920,45 @@
           <mxGeometry x="0.8448" y="2" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SUiiR8tl3ieN-L8OfsxM-291" target="SUiiR8tl3ieN-L8OfsxM-292">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-291" value="&lt;b style=&quot;border-color: var(--border-color); background-color: initial; color: rgb(0, 51, 102);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;NotificationRecordManager&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-613" y="3880" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SUiiR8tl3ieN-L8OfsxM-292" target="SUiiR8tl3ieN-L8OfsxM-293">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-292" value="&lt;b style=&quot;border-color: var(--border-color); background-color: initial; color: rgb(0, 51, 102);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;NotificationListenHelper&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-613" y="3990" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-298" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SUiiR8tl3ieN-L8OfsxM-293" target="SUiiR8tl3ieN-L8OfsxM-294">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-293" value="FloatWindowService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="4092" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-299" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SUiiR8tl3ieN-L8OfsxM-294" target="SUiiR8tl3ieN-L8OfsxM-295">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-294" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 51, 102);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;NotificationWindow&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="4210" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SUiiR8tl3ieN-L8OfsxM-295" target="SUiiR8tl3ieN-L8OfsxM-296">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-295" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 51, 102);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;NotificationDragView&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="4320" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-296" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 51, 102);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;NotificationRecycleView&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="4430" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SUiiR8tl3ieN-L8OfsxM-302" target="SUiiR8tl3ieN-L8OfsxM-291">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SUiiR8tl3ieN-L8OfsxM-302" value="&lt;b style=&quot;border-color: var(--border-color); background-color: initial; color: rgb(0, 51, 102);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;NotificationListener&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-613" y="3770" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
